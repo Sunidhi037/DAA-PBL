@@ -1,0 +1,25 @@
+{
+  "buildings": [
+    "Main Gate", "Admin Block", "Library", "Auditorium", "Science Block",
+    "Engineering Block", "Hostel A", "Hostel B", "Canteen", "Sports Complex"
+  ],
+  "connections": [
+    ["Main Gate", "Admin Block", 150],
+    ["Main Gate", "Sports Complex", 400],
+    ["Admin Block", "Library", 120],
+    ["Admin Block", "Auditorium", 180],
+    ["Library", "Auditorium", 90],
+    ["Library", "Science Block", 140],
+    ["Auditorium", "Engineering Block", 210],
+    ["Science Block", "Engineering Block", 100],
+    ["Science Block", "Canteen", 160],
+    ["Engineering Block", "Canteen", 130],
+    ["Engineering Block", "Hostel A", 260],
+    ["Canteen", "Hostel A", 110],
+    ["Canteen", "Hostel B", 170],
+    ["Hostel A", "Hostel B", 60],
+    ["Hostel B", "Sports Complex", 220],
+    ["Hostel A", "Sports Complex", 300],
+    ["Auditorium", "Canteen", 250]
+  ]
+}

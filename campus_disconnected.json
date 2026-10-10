@@ -1,0 +1,9 @@
+{
+  "buildings": ["Library", "Admin Block", "CS Dept", "Hostel", "Canteen", "Remote Farm House"],
+  "connections": [
+    ["Library", "Admin Block", 4],
+    ["Library", "CS Dept", 2],
+    ["Admin Block", "CS Dept", 1],
+    ["Hostel", "Canteen", 3]
+  ]
+}

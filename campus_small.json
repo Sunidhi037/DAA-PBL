@@ -1,0 +1,13 @@
+{
+  "buildings": ["Library", "Admin Block", "CS Dept", "Hostel", "Canteen", "Sports Complex"],
+  "connections": [
+    ["Library", "Admin Block", 4],
+    ["Library", "CS Dept", 2],
+    ["Admin Block", "CS Dept", 1],
+    ["Admin Block", "Hostel", 7],
+    ["CS Dept", "Canteen", 5],
+    ["Hostel", "Canteen", 3],
+    ["Hostel", "Sports Complex", 6],
+    ["Canteen", "Sports Complex", 8]
+  ]
+}
